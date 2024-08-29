@@ -12,6 +12,12 @@ public class VR_BaseStudy : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		//경로 설정에 추가하면 유리함
+		PrivateIncludePaths.AddRange(new string[] 
+		{
+            "VR_BaseStudy/Main"
+        });
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
